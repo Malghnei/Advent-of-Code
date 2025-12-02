@@ -1,5 +1,5 @@
 # Open input file and read a line.
-input = open("Day1/input.txt")
+input = open("2025/Day1/input.txt")
 line = input.readline()
 # Position of the dial & the # of times the position is set to 0.
 pos = 50
