@@ -8,7 +8,7 @@ counter = 0
 # While loop to go through all the lines in the input file.
 while line:
     # Get the number from the line.
-    num = int(line[1:len(line)]) % 100
+    num = int(line[1:len(line)])
 
     # Move dial position based on direction given.
     match line[0]:
