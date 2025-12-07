@@ -8,11 +8,12 @@ sum = 0
 
 # While loop to go through every line in the input file.
 while line:
+    line = line.strip()
     # First for loop for the first digit.
-    for i in range(0, len(line) - 1):
+    for i in range(0, len(line)):
         first = int(line[i])
         # Second for loop for the second digit.
-        for j in range(i + 1, len(line) - 1):
+        for j in range(i + 1, len(line)):
             second = int(line[j])
             # Compare to the max value if there is any.
             if (first * 10 + second) > max:
